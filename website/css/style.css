@@ -695,20 +695,20 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 /*--------------------------------------------------------------
-# Speakers Section
+# Sports Section
 --------------------------------------------------------------*/
 
-#speakers {
+#sports {
   padding: 60px 0 30px 0;
 }
 
-#speakers .speaker {
+#sports .sport {
   position: relative;
   overflow: hidden;
   margin-bottom: 30px;
 }
 
-#speakers .speaker .details {
+#sports .sport .details {
   background: rgba(6, 12, 34, 0.76);
   position: absolute;
   left: 0;
@@ -719,52 +719,52 @@ body.mobile-nav-active #mobile-nav-toggle {
   transition: all 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
-#speakers .speaker .details h3 {
+#sports .sport .details h3 {
   color: #fff;
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
 }
 
-#speakers .speaker .details p {
+#sports .sport .details p {
   color: #fff;
   font-size: 15px;
   margin-bottom: 10px;
   font-style: italic;
 }
 
-#speakers .speaker .details .social {
+#sports .sport .details .social {
   height: 30px;
 }
 
-#speakers .speaker .details a {
+#sports .sport .details a {
   color: #fff;
 }
 
-#speakers .speaker .details a:hover {
+#sports .sport .details a:hover {
   color: #f82249;
 }
 
-#speakers .speaker:hover .details {
+#sports .sport:hover .details {
   bottom: 0;
 }
 
-#speakers-details {
+#sports-details {
   padding: 60px 0;
 }
 
-#speakers-details .details h2 {
+#sports-details .details h2 {
   color: #112363;
   font-size: 28px;
   font-weight: 700;
   margin-bottom: 10px;
 }
 
-#speakers-details .details .social {
+#sports-details .details .social {
   margin-bottom: 15px;
 }
 
-#speakers-details .details .social a {
+#sports-details .details .social a {
   background: #e9edfb;
   color: #112363;
   line-height: 1;
@@ -776,16 +776,16 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding-top: 9px;
 }
 
-#speakers-details .details .social a:hover {
+#sports-details .details .social a:hover {
   background: #f82249;
   color: #fff;
 }
 
-#speakers-details .details .social a i {
+#sports-details .details .social a i {
   font-size: 18px;
 }
 
-#speakers-details .details p {
+#sports-details .details p {
   color: #112363;
   font-size: 15px;
   margin-bottom: 10px;
@@ -853,7 +853,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   display: inline-block;
 }
 
-#schedule .schedule-item .speaker {
+#schedule .schedule-item .sport {
   width: 60px;
   height: 60px;
   overflow: hidden;
@@ -862,7 +862,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin: 0 10px 10px 0;
 }
 
-#schedule .schedule-item .speaker img {
+#schedule .schedule-item .sport img {
   height: 100%;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
