@@ -1047,6 +1047,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 #gallery .owl-dot.active {
   background-color: #f82249;
 }
+#gallery .gallery-carousel {
+  width: 100%;
+  overflow: hidden;
+  height: 200px;
+}
 
 #gallery .gallery-carousel .owl-stage-outer {
   overflow: visible;
