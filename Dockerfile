@@ -1,3 +1,3 @@
 FROM nginx:alpine
 
-COPY ./website /usr/share/nginx/html/EuroRollerGames
+COPY ./website /usr/share/nginx/html/
